@@ -24,6 +24,7 @@
     "react/function-component-definition": [0],
     "react-hooks/exhaustive-deps": "warn",
     "react/jsx-no-constructed-context-values": "off",
+    "react/jsx-no-useless-fragment": "off",
     "arrow-body-style": "off",
     "prefer-arrow-callback": "off"
   }
