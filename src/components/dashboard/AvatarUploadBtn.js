@@ -72,6 +72,7 @@ const AvatarUploadBtn = () => {
 
       Alert.info('Avatar has been uploaded', 4000);
       setIsLoading(false);
+      close();
     } catch (err) {
       setIsLoading(false);
       Alert.error(err.message, 4000);
