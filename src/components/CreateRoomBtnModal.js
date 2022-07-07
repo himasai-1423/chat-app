@@ -58,7 +58,7 @@ const CreateRoomBtnModal = () => {
       close();
     } catch (err) {
       setIsLoading(false);
-      Alert.err(err.message, 4000);
+      Alert.error(err.message, 4000);
     }
   };
 
