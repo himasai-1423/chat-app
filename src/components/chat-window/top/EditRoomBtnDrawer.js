@@ -9,14 +9,14 @@ import EditableInput from '../../EditableInput';
 const EditRoomBtnDrawer = () => {
   const { isOpen, open, close } = useModalState();
   const { chatId } = useParams();
-  const isMobile = useMediaQuery('(max-width: 992px');
+  const isMobile = useMediaQuery('(max-width: 992px)');
 
   const name = useCurrentRoom(v => v.name);
   const description = useCurrentRoom(v => v.description);
 
   const updateData = (key, value) => {
     database
-      .ref(`/rooms/${chatId} `)
+      .ref(`rooms/${chatId}`)
       .child(key)
       .set(value)
       .then(() => {
