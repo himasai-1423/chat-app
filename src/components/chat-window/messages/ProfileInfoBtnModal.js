@@ -6,11 +6,11 @@ import ProfileAvatar from '../../ProfileAvatar';
 const ProfileInfoBtnModal = ({ profile, children, ...btnProps }) => {
   const { isOpen, close, open } = useModalState();
 
-  const { name, avatar, createAt } = profile;
+  const { name, avatar, createdAt } = profile;
 
   const shortName = profile.name.split(' ')[0];
 
-  const memberSince = new Date(createAt).toLocaleDateString();
+  const memberSince = new Date(createdAt).toLocaleDateString();
 
   return (
     <>
