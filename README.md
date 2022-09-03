@@ -1,4 +1,4 @@
-#[Check the project](https://chat-web-app-9cd77.web.app/)
+# [Check the project](https://chat-web-app-9cd77.web.app/)
 Note: click the above link to check the project 
 
 ## Getting Started with Create React App
